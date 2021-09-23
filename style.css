@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-div{
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: auto;
+}
+h2 {
+	font-size: 60px;
+	text-align: center;
+	line-height: 400px;
+	font-weight: 900;
+	position: relative;
+	animation: animate 4s infinite;
+
+}
+@keyframes animate{
+    0%{
+        letter-spacing: 40px;
+        text-shadow: 0 0 10px black;
+    }
+    50%{
+        letter-spacing: 3px;
+        text-shadow: 0 0 0px black;
+    }
+}
+h4 {
+	color: black;
+	position: relative;
+    top: -150px;
+	left: 32%;
+	animation: animate-2 4s infinite;
+}
+@keyframes animate-2{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        top: -178px;
+        
+
+    }
+  100%{
+    top: -150px;
+    opacity: 1;
+    visibility: visible;
+
+    }
+}
